@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+html {
+    /* background: url("data:image/jpeg;base64,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") no-repeat center center fixed; */
+    /* background-size: cover; */
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1RTMI6fniBfJBE_DMf9hZGg7a_NdoZ3QwNQ&usqp=CAU") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    font-family: Muli;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.terms-agreement {
+    background-color: rgb(13, 90, 132);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.privacy-cookies-agreement-link {
+    color: white;
+}
+
+h1 {
+    padding: 20px 0 40px 0;
+    text-align: center;
+    font: 30px;
+}
+
+.order-status-list {
+    font-weight: bold;
+    font-size: 18px;
+   justify-content: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.order-status-item-container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+}
+
+.tick-image {
+    width: 16px;
+    height: auto;
+}
+
+.circle-image {
+    width: 16px;
+    height: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 45px;
+    margin: 80px 0;
+    /* border: 2px dotted red; */
+}
+
+.container-left {
+    width: 40%;
+    padding: 0;
+}
+
+.delivery-time {
+    border-radius: 10px 0;
+    box-shadow: -5px -3px 10px #4d4e4f;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.delivery-time-text-a {
+    padding: 20px  0 10px 15px;
+    margin: 0;
+}
+
+.delivery-time-text-b {
+    padding: 0 0 20px 15px;
+    margin: 0;
+}
+
+.info-container {
+    border-radius: 10px 0;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.phone-icon {
+    width: 16px;
+    height: auto;
+    padding-right: 10px;
+}
+
+.contact-info-a {
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(13, 90, 132);
+    color: white;
+    padding: 15px  0 15px 15px;
+    margin: 0;
+}
+
+.contact-info-b {
+    color: rgb(231, 47, 78);
+    background-color: white;
+    padding: 15px 0 15px 0;
+    margin: 0;
+}
+
+.contact-info-number-span {
+    text-decoration: underline;
+}
+
+.feedback-container {
+    border-radius: 10px 0;
+    box-shadow: -5px -3px 10px #ced0d1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    color: black;
+    box-shadow: -5px -3px 10px #4d4e4f;
+    border-radius: 10px 0;
+}
+
+.feedback-img {
+    width: 40px;
+    height: auto;
+    padding-left: 15px;
+}
+
+.service-p-a {
+    padding: 20px  0 10px 15px;
+    margin: 0;
+}
+
+.service-p-b {
+    text-decoration: underline;
+    padding: 0 0 20px 15px;
+    margin: 0;
+}
+
+.container-right {
+    background-color: white;
+    color: black;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 5px 5px #bdb8b8;
+    margin-top: 60px;
+    width: 30%;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-color: rgb(13, 90, 132);
+}
+
+.title-section {
+    font-weight: bold;
+    display: grid;
+    grid-template-columns:  110px 175px 100px;
+    grid-template-rows: 1fr;
+    padding: 0 0 0 20px; 
+}
+
+.item-section {
+    /* background-color: #f9f9f9; */
+    display: grid;
+    grid-template-columns: 100px 205px 100px;
+    grid-template-rows: auto;
+    padding-left: 25px;
+}
+
+.order-total {
+    background-color: rgb(13, 90, 132);
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.total-section {
+    display: grid;
+    grid-template-areas: 
+    "total-text . total-amt";
+    grid-template-columns:  100px 185px 100px;
+    grid-template-rows: 1fr;
+    padding-left: 15px;
+}
+
+.total-text {
+    font-weight: bold;
+    font-size: 20px;
+    grid-area: total-text;
+}
+
+.total-amt {
+    font-weight: bold;
+    font-size: 20px;
+    grid-area: total-amt;
+}
+
+.delivery-charge-section {
+    display: grid;
+    grid-template-areas: 
+    "delivery-charge-text . delivery-charge-amt";
+    grid-template-columns:  185px 100px 100px;
+    grid-template-rows: 1fr;
+    padding-left: 15px;
+}
+
+.delivery-charge-text {
+    font-size: 20px;
+    grid-area: delivery-charge-text;
+}
+
+.delivery-charge-amt {
+    font-size: 20px;
+    grid-area: delivery-charge-amt;
+}
+
+.order-fee-section {
+    display: grid;
+    grid-template-areas: 
+    "order-fee-text . order-fee-amt";
+    grid-template-columns:  185px 100px 100px;
+    grid-template-rows: 1fr;
+    padding-left: 15px;
+}
+
+.order-fee-text {
+    font-size: 20px;
+    grid-area: order-fee-text;
+}
+
+.order-fee-amt {
+    font-size: 20px;
+    grid-area: order-fee-amt;
+}
+
+
+.total-due-section {
+    display: grid;
+    grid-template-areas: 
+    "total-due-text . total-due-amt";
+    grid-template-columns:  100px 185px 100px;
+    grid-template-rows: 1fr;
+    padding-left: 15px;
+}
+
+.total-due-text {
+    font-weight: bold;
+    font-size: 20px;
+    grid-area: total-due-text;
+}
+
+.total-due-amt {
+    font-weight: bold;
+    font-size: 20px;
+    grid-area: total-due-amt;
+}
+
+footer {
+    background-color: rgb(5, 77, 116);
+    color: white;
+    font-size: 20px;
+}
+
+.footer-text-a {
+    text-align: center;
+    padding: 20px  0 10px 15px;
+    margin: 0;
+}
+
+.footer-text-b {
+    text-align: center;
+    padding: 0 0 20px 15px;
+    margin: 0;
+}
